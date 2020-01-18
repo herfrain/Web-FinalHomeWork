@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="css/video.css" />
+		<script type="text/jscript">
+			
+			
+			var belong=request.getParameter("belong");
+			console.log("s"+belong);
+			var nav_menu=document.getElementById('nav_menu');
+			var liStr=nav_menu.getElementsByTagName('li');
+			for(var i=0;i<liStr.length;i++){
+				
+				if(belong=liStr[i].id){
+					liStr[i].className="chooseLied";
+				
+				}else{
+					liStr[i].className="chooseLi";
+				}
+			}
+			
+			
+		</script>
+	</head>
+	<body>
+		<div class="top_title" style="background: url(img/lookm.jpg);background-size: 100%;">
+			
+			<ul class="top_title_ul">
+				
+				<span class="leftmenu">
+					<li><a href="index.html">主站</a></li>
+					<li><a href="">画友</a></li>
+					<li><a href="">游戏中心</a></li>
+					<li><a href="">直播</a></li>
+				</span>
+				
+				<span class="rightmenu">
+					<li><a href="personal_information.html">个人信息</a></li>
+					<li><a href="">消息</a></li>
+					<li><a href="">动态</a></li>
+				</span>
+				
+			</ul>
+			
+		</div>
+		
+		
+		<div class="nav">
+			<ul>
+				<span id="nav_menu" class="nav_menu">
+					<li class="chooseLied"><a href="index.html">首页</a></li>
+					<li id="cartoon" class="chooseLi"><a href="cartoon.html">动画</a></li>
+					<li class="chooseLi"><a href="live.html">番剧</a></li>
+					<li class="chooseLi"><a href="china_cartoon.html">国创</a></li>
+				</span>
+			</ul>
+		</div>
+		
+		<hr />
+		
+		<div style="width: 100%;margin: 0 auto;align-content: center;
+			border-bottom: 1px solid;border-color: #ddd;">
+		<div class="video_body_top">
+			<div class="video_left">
+				<div class="video_left_top">
+					<div class="video_left_top_title">
+						火影忍者
+					</div>
+				</div>
+				<div class="video_left_mid">
+					<ul>
+						<li id="first">主页>游戏>手机游戏</li>
+						<li>2018-06-16 21:33</li>
+						<li>稿件投诉</li>
+					</ul>
+				</div>
+				<div class="video_left_bottom">
+					<ul>
+						<li id="a"><img src="gif/02.gif"/ alt="a"> 5.5万</li>
+						<li id="b"><img src="gif/04.gif"/ alt="a"> 333</li>
+						<li id="b"><img src="gif/08.gif"/ alt="a"> 硬币    1000</li>
+						<li id="b"><img src="gif/09.gif"/ alt="a"> 收藏    200</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="video_right">
+				<div class="video_right_left">
+					<div class="video_right_left_headImg">
+						<img src="img/naruto.jpg" alt="aa"/>
+					</div>
+				</div>
+				
+				<div class="video_right_right">
+					<div class="video_right_right_top">
+						<div class="video_right_right_top_title">
+							Naruto
+						</div>
+					</div>
+					<div class="video_right_right_mid">
+						<div class="video_right_right_mid_detail">
+							笔直向前,说道做到，这就是我的忍道！
+						</div>
+					</div>
+					<div class="video_right_right_bottom">
+						<ul>
+							<li id="first">投稿：<span>22</span></li>
+							<li id="second">粉丝：<span>9.1</span>万</li>
+						</ul>
+						
+						<button class="attentionBtn"><span>关注</span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		</div>
+		
+		<div style="float: left;width: 100%;height: 1000px;margin: 0 auto;align-content: center;
+			background-color: #f6f9fa;">
+		<div class="video_body_mid">
+			<div class="video_body_mid_v">
+				<video id="myVideo" controls="controls">
+					<source src="video/博人改_1.mp4" type="video/mp4"></source>
+					<source src="video/博人改_1.mp4" type="video/m4v"></source>
+					<source src="video/博人改_1.mp4" type="video/ogg"></source>
+					<source src="video/博人改_1.mp4" type="video/quicktime"></source>
+					<source src="video/博人改_1.mp4" type="video/x-ms-wmv"></source>
+				</video>
+			</div>
+			<div class="video_body_mid_right">
+				<div class="video_body_mid_right_data">
+					<span id="people">1231</span>
+					<span>人正在观看，</span>
+					<span id="danM">2222</span>
+					<span>条弹幕</span>
+				</div>
+				<div class="video_body_mid_right_list">
+					<ul>
+						<a href=""><li>
+							<div class="video_body_mid_right_ul_li">
+								<div class="li_left">
+									<img src="img/timg.gif" alt="a"/>
+								</div>
+								<div class="li_right">
+									<div class="li_right_up">
+										<span>第一集</span>
+									</div>
+									<div class="li_right_down">
+										<ul>
+											<li><img src="gif/00.gif"/ alt="a"> 1万</li>
+											<li><img src="gif/01.gif"/ alt="a"> 111</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li></a>
+						
+						<a href=""><li>
+							<div class="video_body_mid_right_ul_li">
+								<div class="li_left">
+									<img src="gif/03.gif" alt="a"/>
+								</div>
+								<div class="li_right">
+									<div class="li_right_up">
+										<span>第二集</span>
+									</div>
+									<div class="li_right_down">
+										<ul>
+											<li><img src="gif/04.gif"/ alt="a"> 2万</li>
+											<li><img src="gif/05.gif"/ alt="a"> 222</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li></a>
+						
+						<a href=""><li>
+							<div class="video_body_mid_right_ul_li">
+								<div class="li_left">
+									<img src="gif/07.gif" alt="a"/>
+								</div>
+								<div class="li_right">
+									<div class="li_right_up">
+										<span>第三集</span>
+									</div>
+									<div class="li_right_down">
+										<ul>
+											<li><img src="gif/08.gif"/ alt="a"> 3万</li>
+											<li><img src="gif/09.gif"/ alt="a"> 333</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li></a>
+						
+						<a href=""><li>
+							<div class="video_body_mid_right_ul_li">
+								<div class="li_left">
+									<img src="gif/10.gif" alt="a"/>
+								</div>
+								<div class="li_right">
+									<div class="li_right_up">
+										<span>第四集</span>
+									</div>
+									<div class="li_right_down">
+										<ul>
+											<li><img src="gif/11.gif"/ alt="a"> 4万</li>
+											<li><img src="gif/12.gif"/ alt="a"> 444</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li></a>
+						
+						<a href=""><li>
+							<div class="video_body_mid_right_ul_li">
+								<div class="li_left">
+									<img src="gif/13.gif" alt="a"/>
+								</div>
+								<div class="li_right">
+									<div class="li_right_up">
+										<span>第五集</span>
+									</div>
+									<div class="li_right_down">
+										<ul>
+											<li><img src="gif/14.gif"/ alt="a"> 5.5万</li>
+											<li><img src="gif/15.gif"/ alt="a"> 555</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li></a>
+						
+						<a href=""><li>
+							<div class="video_body_mid_right_ul_li">
+								<div class="li_left">
+									<img src="gif/15.gif" alt="a"/>
+								</div>
+								<div class="li_right">
+									<div class="li_right_up">
+										<span>第六集</span>
+									</div>
+									<div class="li_right_down">
+										<ul>
+											<li><img src="gif/15.gif"/ alt="a"> 6万</li>
+											<li><img src="gif/14.gif"/ alt="a"> 666</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li></a>
+						
+						<a href=""><li>
+							<div class="video_body_mid_right_ul_li">
+								<div class="li_left">
+									<img src="gif/13.gif" alt="a"/>
+								</div>
+								<div class="li_right">
+									<div class="li_right_up">
+										<span>第七集</span>
+									</div>
+									<div class="li_right_down">
+										<ul>
+											<li><img src="gif/13.gif"/ alt="a"> 7万</li>
+											<li><img src="gif/12.gif"/ alt="a"> 777</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>

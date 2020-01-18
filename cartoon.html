@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/swipeslider.css">
+		
+		
+	<!--<script type="text/javascript">
+
+
+      window.onload = function(){
+        var oDiv = document.getElementById("pic");
+        var oImg = document.getElementsByTagName("img")[0];
+        var oP = document.getElementsByTagName("p")[0];
+        var oNum = document.getElementsByTagName("span")[0]; 
+        var oUl = document.getElementsByTagName("ul")[0];
+        var aLi = oUl.getElementsByTagName("li");
+        var arrUrl = ["img/1.png","img/1.jpg","img/1.jpg","img/1.jpg","img/1.jpg"];
+        var arrText = ["中原工学院图书馆","中工宿舍楼","玫瑰花","小猫咪","绿色盆栽"];
+        for(var i=0;i<arrUrl.length;i++){
+          oUl.innerHTML += "<li></li>";
+        }
+        //初始化
+        var num = 0;
+        function fnTab(){
+          oImg.src = arrUrl[num];
+          oP.innerHTML = arrText[num];
+          oNum.innerHTML = 1+num+'/'+arrUrl.length;
+          aLi[num].className = "";
+        }
+        fnTab();
+
+        for(i=0;i<aLi.length;i++){
+          aLi[i].index = i;
+          aLi[i].onclick = function(){
+            num = this.index;
+            fnTab();
+            }
+            aLi[num].className = "active";
+          }
+
+        }
+   
+</script>-->
+
+	</head>
+	<body>
+		<div class="backgroundColor">
+			
+		
+		<div class="top_title" style="background: url(img/n.jpg);background-size: 100%;">
+			
+			<ul class="top_title_ul">
+				
+				<span class="leftmenu">
+					<li><a href="index.html">主站</a></li>
+					<li><a href="404.html">画友</a></li>
+					<li><a href="404.html">游戏中心</a></li>
+					<li><a href="404.html">直播</a></li>
+				</span>
+				
+				<span class="rightmenu">
+					<li><a href="personal_information.html">个人信息</a></li>
+					<li><a href="404.html">消息</a></li>
+					<li><a href="404.html">动态</a></li>
+				</span>
+				
+			</ul>
+			
+		</div>
+		
+		
+		<div class="nav">
+			<ul>
+				<span class="nav_menu">
+					<li class="chooseLi"><a  href="index.html">首页</a></li>
+					<li class="chooseLied"><a href="cartoon.html">动画</a></li>
+					<li class="chooseLi"><a href="live.html">番剧</a></li>
+					<li class="chooseLi"><a href="china_cartoon.html">国创</a></li>
+				</span>
+			</ul>
+		</div>
+		
+		<div class="body">
+			
+		
+		<div class="pic">
+		 	<div id="pic_left" class="pic_left">
+		 		
+		 		<a href="">
+		 			<div style="height: 100%;">
+		 				
+		 				<img src="img/beauty.jpg"  />
+		 				<img src="img/jin.jpg" style="display: none;"/>
+		 				<img src="img/king.jpg" style="display: none;"/>
+		 				<img src="img/people.jpg" style="display: none;"/>
+		 				<div class="pic_text">
+		 						女王
+		 				</div>
+		 			</div>
+		 		</a>
+		 		
+		 	</div>
+		 	<div class="pic_right">
+		 		<div class="pic_right_item">
+		 			<ul class="ul_top">
+						<li><a href="">
+							<div class="imgbox" style="height: 100%;" data-text="naruto is ....">
+								<img src="img/naruto.jpg" />
+								<div class="pic_right_text" >
+		 							火影忍者
+		 						</div>
+		 						
+							</div>
+						</a></li>
+						<li><a href="">
+							<div class="imgbox" data-text="家庭教师 ..." style="height: 100%;" >
+								<img src="img/heart.jpg" />
+								<div class="pic_right_text">
+		 							家庭教师
+		 						</div>
+		 						
+							</div>
+							
+						</a></li>
+						<li><a href="">
+							<div class="imgbox" data-text="黑子" style="height: 100%;">
+								<img src="img/trust.jpg" />
+								<div class="pic_right_text">
+		 							黑子的篮球
+		 						</div>
+							</div>
+						</a></li>
+						<li><a href="">
+							<div class="imgbox" data-text="小英雄" style="height: 100%;">
+								<img src="img/smallHero.jpg" />
+								<div class="pic_right_text">
+		 							我的英雄学院
+		 						</div>
+							</div>
+						</a></li>
+					</ul>
+		 		</div>
+		 		
+		 		<div class="pic_right_item">
+		 			<ul class="ul_bottom">
+						<li><a href="">
+							<div class="imgbox" data-text="银魂" style="height: 100%;">
+								<img src="img/qing.jpg" />
+								<div class="pic_right_text">
+		 							银魂
+		 						</div>
+							</div>
+						</a></li>
+						<li><a href="">
+							<div class="imgbox" data-text="小排球，飞吧~" style="height: 100%;">
+								<img src="img/vollyball.jpg" />
+								<div class="pic_right_text">
+		 							排球少年
+		 						</div>
+							</div>
+						</a></li>
+						<li><a href="">
+							<div class="imgbox" data-text="猎人" style="height: 100%;">
+								<img src="img/xiu.jpg" />
+								<div class="pic_right_text">
+		 							猎人
+		 						</div>
+							</div>
+						</a></li>
+						<li><a href="">
+							<div class="imgbox" data-text="我是要成为海贼王的男人" style="height: 100%;">
+								<img src="img/freedom.jpg" />
+								<div class="pic_right_text">
+		 							海贼王
+		 						</div>
+							</div>
+						</a></li>
+					</ul>
+		 		</div>
+		 		
+		 	</div>
+		 </div>
+		 
+		 <div class="body_left">
+		 	
+		 
+		 <div class="title_push">
+		 	<img src="img/pr.gif" />
+		 	<h1>推广</h1>
+		 </div>
+		 
+		 <div class="pic_push">
+		 	<ul id="pic_push_ul_left">
+				<li><a href="">
+							<div style="height: 100%;">
+								<img src="img/2.jpg" />
+								<div class="pic_right_text">
+		 							五彩
+		 						</div>
+							</div>
+						</a></li>
+				<li><a href="">
+							<div style="height: 100%;">
+								<img src="img/love.jpg" />
+								<div class="pic_right_text">
+		 							爱
+		 						</div>
+							</div>
+						</a></li>
+				<li><a href="">
+							<div style="height: 100%;">
+								<img src="img/night.jpg" />
+								<div class="pic_right_text">
+		 							黄昏
+		 						</div>
+							</div>
+						</a></li>
+				<li><a href="">
+							<div style="height: 100%;">
+								<img src="img/saliya.jpg" />
+								<div class="pic_right_text">
+		 							赛利亚
+		 						</div>
+							</div>
+						</a></li>
+				<li><a href="">
+							<div style="height: 100%;">
+								<img src="img/tiger.jpg" />
+								<div class="pic_right_text">
+		 							老虎
+		 						</div>
+							</div>
+						</a></li>
+			</ul>
+		 </div>
+		 
+		 <div class="title_push">
+		 	<img src="img/chess.gif" />
+		 	<h1>正在直播</h1>
+		 </div>
+		 
+		 <div class="pic_push">
+		 	<ul id="pic_push_ul_left">
+				<li><a href=""><img src="img/wind.jpg" /></a></li>
+				<li><a href=""><img src="img/bikabi.jpg" /></a></li>
+				<li><a href=""><img src="img/hair.jpg" /></a></li>
+				<li><a href=""><img src="img/view.jpg" /></a></li>
+				<li><a href=""><img src="img/hug.jpg" /></a></li>
+			</ul>
+			<ul id="pic_push_ul_left">
+				<li><a href=""><img src="img/aim.jpg" /></a></li>
+				<li><a href=""><img src="img/3.jpg" /></a></li>
+				<li><a href=""><img src="img/kill.jpg" /></a></li>
+				<li><a href=""><img src="img/war.jpg" /></a></li>
+				<li><a href=""><img src="img/1.jpg" /></a></li>
+			</ul>
+		 </div>
+		 
+		 </div>
+		 
+		 <div class="body_right">
+		 	<div>
+		 		
+		 		<h1 style="font-size: 1.2em;">排行</h1>
+		 	</div>
+		 	<ul>
+		 		<li>
+		 			<span id="body_right_span_left"><h1>1</h1></span>
+		 			<span id="body_right_span_right"><a href="">火影忍者</a></span>
+		 		</li>
+		 		<li>
+		 			<span id="body_right_span_left"><h1>2</h1></span>
+		 			<span id="body_right_span_right"><a href="">海贼王</a></span>
+		 		</li>
+		 		<li>
+		 			<span id="body_right_span_left"><h1>3</h1></span>
+		 			<span id="body_right_span_right"><a href="">我的英雄学院</a></span>
+		 		</li>
+		 		<li>
+		 			<span id="body_right_span_left2"><h1>4</h1></span>
+		 			<span id="body_right_span_right"><a href="">家庭教师</a></span>
+		 		</li>
+		 		<li>
+		 			<span id="body_right_span_left2"><h1>5</h1></span>
+		 			<span id="body_right_span_right"><a href="">银魂</a></span>
+		 		</li><li>
+		 			<span id="body_right_span_left2"><h1>6</h1></span>
+		 			<span id="body_right_span_right"><a href="">黑子的篮球</a></span>
+		 		</li><li>
+		 			<span id="body_right_span_left2"><h1>7</h1></span>
+		 			<span id="body_right_span_right"><a href="">排球少年</a></span>
+		 		</li><li>
+		 			<span id="body_right_span_left2"><h1>8</h1></span>
+		 			<span id="body_right_span_right"><a href="">超能力女儿</a></span>
+		 		</li><li>
+		 			<span id="body_right_span_left2"><h1>9</h1></span>
+		 			<span id="body_right_span_right"><a href="">戒律的复活</a></span>
+		 		</li>
+		 		<li>
+		 			<span id="body_right_span_left2"><h1>10</h1></span>
+		 			<span id="body_right_span_right"><a href="">魔法小樱</a></span>
+		 		</li>
+		 	</ul>
+		 	
+		 </div>
+		 
+		</div>
+		
+   			 
+		
+		<div class="bottom">
+			<div class="bottom_left">
+				<div class="bottom_left_title">
+					<h1>bilibili</h1>
+				</div>
+				<div class="bottom_left_items">
+				 	<ul>
+				 		<li><h2><a href="">关于我们</a></h2></li>
+				 		<li><h2><a href="">联系我们</a></h2></li>
+				 		<li><h2><a href="">加入我们</a></h2></li>
+				 	</ul>
+				 	
+				 	<ul>
+				 		<li><h2><a href="">友情链接</a></h2></li>
+				 		<li><h2><a href="">bilibili认证</a></h2></li>
+				 		<li><h2><a href="">Investor</a></h2></li>
+				 	</ul>
+				
+				</div>
+			</div>
+			
+			<!--这个div模拟一条红色的垂直分割线-->
+			<div class="bottom_hr"></div>
+			
+			<div class="bottom_middle">
+				<div style="height: 60%;">
+					<div class="bottom_middle_title">
+					<h1>传送门</h1>
+				</div>
+				<div class="bottom_left_items">
+				 	<ul>
+				 		<li><h2><a href="">帮助中心</a></h2></li>
+				 		<li><h2><a href="">高级弹幕</a></h2></li>
+				 		<li><h2><a href="">活动专题页</a></h2></li>
+				 	</ul>
+				 	
+				 	<ul>
+				 		<li><h2><a href="">侵权申诉</a></h2></li>
+				 		<li><h2><a href="">活动中心</a></h2></li>
+				 		<li><h2><a href="">用户反馈论坛</a></h2></li>
+				 	</ul>
+				
+				 	<ul>
+				 		<li><h2><a href="">壁纸贴</a></h2></li>
+				 		<li><h2><a href="">名人堂</a></h2></li>
+				 		
+				 	</ul>
+				</div>
+				</div>
+				
+				<div class="bottom_down">
+				<ul>
+					<li>制作者：Herfrain</li>
+					<li>邮箱：540208851@qq.com</li>
+					<li>联系方式：1000 1000 1111</li>
+					<li>欢迎合作</li>
+				</ul>
+			</div>
+			</div>
+			
+			<div class="bottom_hr"></div>
+			
+			<div class="bottom_right">
+				<div class="bottom_right_pic">
+					<div class="bottom_right_pic_item">
+						<ul class="ul_top">
+						<li><a href=""><img src="img/1.jpg" alt="img"/></a></li>
+						<li><a href=""><img src="img/1.jpg" alt="img"/></a></li>
+						<li><a href=""><img src="img/1.jpg" alt="img"/></a></li>
+						</ul>
+					</div>
+					
+					<div class="bottom_right_pic_item">
+						<ul class="ul_bottom">
+						<li><a href=""><img src="img/1.jpg" alt="img"/></a></li>
+						<li><a href=""><img src="img/1.jpg" alt="img"/></a></li>
+						<li><a href=""><img src="img/1.jpg" alt="img"/></a></li>
+					</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	<script src="http://www.5iweb.com.cn/statics/js/jquery.1.7.1.min.js" 
+		type="text/javascript"></script>
+	
+	<script type="text/javascript" src="js/swipeslider.js"></script>
+	<script type="text/javascript" src="js/pictureMove.js"></script>
+	
+	<script type="text/javascript">
+		window.setInterval("Huan()",2000);	    
+	</script>
+	</body>
+</html>
